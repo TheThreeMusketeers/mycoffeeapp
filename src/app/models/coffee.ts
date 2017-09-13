@@ -1,4 +1,5 @@
 import { PlaceLocation } from './placeLocation';
+import { TastingRating } from "./tastingRating";
 export class Coffee {
     type:string;
     rating:number;
@@ -8,6 +9,8 @@ export class Coffee {
     constructor(public name:string = "",
                 public place:string = "",
                 public location:PlaceLocation = null){
+                    this.location = new PlaceLocation();
+                    this.tastingRating = new TastingRating();
 
     }
     
