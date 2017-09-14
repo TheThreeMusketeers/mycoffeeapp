@@ -1,22 +1,42 @@
 import { PlaceLocation } from './../models/placeLocation';
 import { Coffee } from './../models/coffee';
 import { Injectable } from '@angular/core';
+import { Http } from "@angular/http";
 
 @Injectable()
 export class CoffeeService {
 
-  constructor() { }
+  constructor(private http:Http) { }
+
+  public endpoint = "http://localhost:3000";
+
+  getCoffee(id:string,callback){
+    this.http.get(`${this.endpoint}/coffees/${id}`)
+      .subscribe(response => {
+        callback(response.json());
+      });
+  }//getCoffee
 
   getList(callback){
-    const list = [
-      new Coffee("Double Expresso","Sunny Cafe",new PlaceLocation("123 Market St.","San Francisco")),
-      new Coffee("Caramel Americano","Starcoffee",new PlaceLocation("Gran Via 34.","Madrid"))
-    ];
-    callback(list);
+    this.http.get(`${this.endpoint}/coffees`)
+      .subscribe(response => {
+        callback(response.json());
+      });
   }//getList
 
   save(coffee,callback){
-    callback(true);
+    if(coffee._id){
+      this.http.put(`${this.endpoint}/coffees/${coffee._id}`,coffee)
+        .subscribe(response => {
+          callback(true);
+        });
+    }else {
+      this.http.post(`${this.endpoint}/coffees`,coffee)
+      .subscribe(response => {
+        callback(true);
+      });
+    }
+    
   }//save
 
 }//cs

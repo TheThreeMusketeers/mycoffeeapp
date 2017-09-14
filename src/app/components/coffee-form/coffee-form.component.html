@@ -33,7 +33,7 @@
     </md-slider>
 
     <md-card-subtitle>
-      <md-slide-toggle #tastingSelector (change)="tastingRatingChanged(tastingSelector.checked)">Tasting Ratings</md-slide-toggle>
+      <md-slide-toggle #tastingSelector (change)="tastingRatingChanged(tastingSelector.checked)" [checked]="tastingEnabled">Tasting Ratings</md-slide-toggle>
     </md-card-subtitle>
 
     <section id="tasting" *ngIf="tastingSelector.checked">

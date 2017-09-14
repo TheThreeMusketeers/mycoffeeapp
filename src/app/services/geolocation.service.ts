@@ -20,7 +20,7 @@ export class GeolocationService {
   getMapLink(location: PlaceLocation){
     let query = "";
     if(location.latitude){
-      query = location.latitude + "," + location.longtitude;
+      query = location.latitude + "," + location.longitude;
     } else {
       query = `${location.address},${location.city}`;
     }
