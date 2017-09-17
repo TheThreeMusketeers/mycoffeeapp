@@ -31,16 +31,21 @@ export class CoffeeListComponent implements OnInit {
   }//goMap
 
   share(coffee:Coffee){
-    /* if('share' in navigator){
-      navigator.share({
+    console.log("sharing...");
+    const shareText = `I had this cofee at ${coffee.place} and for me it is a ${coffee.rating} star.`;
+    console.log(shareText);
+    if('share' in navigator){
+      (navigator as any).share({
         title: coffee.name,
-        text:`I have this coffee at ${coffee.place} and for me it is good`,
-        url: window.location.href()
-      }).then
+        text: shareText,
+        url: window.location.href
+      }).then(()=>console.log("shared")).catch(()=>console.log("error in sharing"));
+    } else {
+      const shareUrl = `whatsapp://send?text=${encodeURIComponent(shareText)}`;
+      console.log(shareUrl);
+      location.href = shareUrl;
+      
     }
-    else{
-      //Whatsupa gönder
-    } */
   }//share
 
 }//cs
