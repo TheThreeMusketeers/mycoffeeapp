@@ -5,6 +5,7 @@ import { Coffee } from './../../models/coffee';
 import { CoffeeService } from './../../services/coffee.service';
 import { Component, OnInit } from '@angular/core';
 import {MdDialog, MdDialogRef, MD_DIALOG_DATA} from '@angular/material';
+import { MdSnackBar } from '@angular/material';
 
 @Component({
   selector: 'app-coffee-list',
@@ -18,7 +19,8 @@ export class CoffeeListComponent implements OnInit {
   constructor(private coffeeService:CoffeeService,
               private router:Router,
               private geolocationService:GeolocationService,
-              public dialog:MdDialog) { }
+              public dialog:MdDialog,
+              private snackBar:MdSnackBar) { }
 
   ngOnInit() {
     this.coffeeService.getList(list => {
@@ -56,7 +58,7 @@ export class CoffeeListComponent implements OnInit {
   delete(coffee:Coffee) {
     let dialogRef = this.dialog.open(ConfirmDialogTemplateComponent, {
       width: '250px',
-      data: { name: this.name, animal: this.animal }
+      data: { title: 'Delete Cofee?',subtitle:'Do you want to delete this record?' }
     });
 
     dialogRef.afterClosed().subscribe(result => {
@@ -65,6 +67,7 @@ export class CoffeeListComponent implements OnInit {
           var index = this.coffeeList.findIndex(c => c._id === coffee._id);
           if(index>-1) {
             this.coffeeList.splice(index,1);
+            this.snackBar.open("The record has been deleted.","",{duration:5000});
           }
         });
       }
