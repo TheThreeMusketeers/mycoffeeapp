@@ -1,8 +1,10 @@
+import { ConfirmDialogTemplateComponent } from './../shared/confirm-dialog-template.component';
 import { GeolocationService } from './../../services/geolocation.service';
 import { Router } from '@angular/router';
 import { Coffee } from './../../models/coffee';
 import { CoffeeService } from './../../services/coffee.service';
 import { Component, OnInit } from '@angular/core';
+import {MdDialog, MdDialogRef, MD_DIALOG_DATA} from '@angular/material';
 
 @Component({
   selector: 'app-coffee-list',
@@ -10,10 +12,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./coffee-list.component.css']
 })
 export class CoffeeListComponent implements OnInit {
-  coffeeList:[Coffee]
+  coffeeList:[Coffee];
+  animal: string;
+  name: string;
   constructor(private coffeeService:CoffeeService,
               private router:Router,
-              private geolocationService:GeolocationService) { }
+              private geolocationService:GeolocationService,
+              private dialog:MdDialog) { }
 
   ngOnInit() {
     this.coffeeService.getList(list => {
@@ -49,12 +54,22 @@ export class CoffeeListComponent implements OnInit {
   }//share
 
   delete(coffee:Coffee) {
-    this.coffeeService.delete(coffee._id,resp => {
+    let dialogRef = this.dialog.open(ConfirmDialogTemplateComponent, {
+      width: '250px',
+      data: { name: this.name, animal: this.animal }
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+      console.log(result);
+    });
+
+    /* this.coffeeService.delete(coffee._id,resp => {
       var index = this.coffeeList.findIndex(c => c._id === coffee._id);
       if(index>-1) {
         this.coffeeList.splice(index,1);
       }
-    });
+    }); */
   }//delete
 
 }//cs
