@@ -48,4 +48,13 @@ export class CoffeeListComponent implements OnInit {
     }
   }//share
 
+  delete(coffee:Coffee) {
+    this.coffeeService.delete(coffee._id,resp => {
+      var index = this.coffeeList.findIndex(c => c._id === coffee._id);
+      if(index>-1) {
+        this.coffeeList.splice(index,1);
+      }
+    });
+  }//delete
+
 }//cs

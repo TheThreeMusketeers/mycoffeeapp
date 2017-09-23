@@ -36,7 +36,13 @@ export class CoffeeService {
         callback(true);
       });
     }
-    
   }//save
+
+  delete(id:string,callback){
+    this.http.delete(`${this.endpoint}/coffees/${id}`)
+      .subscribe(response => {
+        callback(response.json());
+      });
+  }//delete
 
 }//cs
