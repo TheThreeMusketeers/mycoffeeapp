@@ -57,6 +57,9 @@ const routes:Routes =[
     CoffeeFormComponent,
     ConfirmDialogTemplateComponent
   ],
+  entryComponents: [
+    ConfirmDialogTemplateComponent
+  ],
   imports: [
     RouterModule.forRoot(routes),
     BrowserModule,

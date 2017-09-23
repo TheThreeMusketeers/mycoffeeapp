@@ -18,7 +18,7 @@ export class CoffeeListComponent implements OnInit {
   constructor(private coffeeService:CoffeeService,
               private router:Router,
               private geolocationService:GeolocationService,
-              private dialog:MdDialog) { }
+              public dialog:MdDialog) { }
 
   ngOnInit() {
     this.coffeeService.getList(list => {
@@ -60,16 +60,15 @@ export class CoffeeListComponent implements OnInit {
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      console.log('The dialog was closed');
-      console.log(result);
-    });
-
-    /* this.coffeeService.delete(coffee._id,resp => {
-      var index = this.coffeeList.findIndex(c => c._id === coffee._id);
-      if(index>-1) {
-        this.coffeeList.splice(index,1);
+      if(result==true){
+        this.coffeeService.delete(coffee._id,resp => {
+          var index = this.coffeeList.findIndex(c => c._id === coffee._id);
+          if(index>-1) {
+            this.coffeeList.splice(index,1);
+          }
+        });
       }
-    }); */
+    });
   }//delete
 
 }//cs

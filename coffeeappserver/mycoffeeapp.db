@@ -7,3 +7,4 @@
 {"name":"","place":"","location":{"address":"","city":"","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{},"_id":"6uQsMP59bbRiRZN9"}
 {"$$deleted":true,"_id":"6uQsMP59bbRiRZN9"}
 {"name":"Şüko Cofee","place":"İstanbul","location":{"address":"Çekmeköy","city":"Çekmeköy","latitude":41.025486799999996,"longitude":29.1884891},"tastingRating":{"aroma":10,"flavor":10,"intensity":10,"sweetness":10,"aftertaste":10},"type":"Frappe","rating":10,"notes":"harika1","_id":"3INCqE1kbZWYvs3C"}
+{"$$deleted":true,"_id":"WPfSE6uf2UqQMe8G"}
