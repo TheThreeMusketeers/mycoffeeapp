@@ -6,7 +6,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MdButtonModule,MdIconModule,MdInputModule,MdSelectModule,MdSliderModule,
-         MdToolbarModule, MdCardModule,MdSlideToggleModule } from '@angular/material';
+  MdToolbarModule, MdCardModule, MdSlideToggleModule, MdSnackBarModule
+} from '@angular/material';
 import 'hammerjs';
 import { CoffeeListComponent } from './components/coffee-list/coffee-list.component';
 import { CoffeeFormComponent } from './components/coffee-form/coffee-form.component';
@@ -33,7 +34,8 @@ const routes:Routes =[
     HttpModule,
     BrowserAnimationsModule,
     MdButtonModule,MdIconModule,MdInputModule,MdSelectModule,
-    MdSliderModule,MdToolbarModule, MdCardModule,MdSlideToggleModule
+    MdSliderModule,MdToolbarModule, MdCardModule,MdSlideToggleModule,
+    MdSnackBarModule
   ],
   providers: [
     GeolocationService,
