@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MdSnackBar } from '@angular/material';
+import { NgServiceWorker, NgPushRegistration } from '@angular/service-worker';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,9 @@ import { MdSnackBar } from '@angular/material';
 export class AppComponent {
   title = 'app';
 
-  constructor(private snackBar:MdSnackBar){
+  constructor(private snackBar:MdSnackBar,
+              private ngsw:NgServiceWorker
+            ){
     
   }
 
@@ -24,11 +27,41 @@ export class AppComponent {
     
   }//updateNetworkStatusUI
 
+  subscribeToPush(){
+    Notification.requestPermission(permission=>{
+      if(permission === "granted"){
+        this.ngsw.registerForPush({applicationServerKey:"replace-with-your-public-key"})
+          .subscribe((registration:NgPushRegistration)=>{
+            console.log(registration);
+            //TODO: Sent that object to our server
+          });
+      }
+    });
+  }//subscribeToPush
+
   ngOnInit(){
+
+    //Checking Sw update status
+    this.ngsw.updates.subscribe(update=>{
+      if(update.type == 'pending'){
+        const sb = this.snackBar.open("There is an update available.","Install Now",{duration:4000});
+        sb.onAction().subscribe(()=>{
+          this.ngsw.activateUpdate(update.version).subscribe(event=>{
+            console.log("The app was updated");
+            location.reload();
+          });
+        });
+      }
+    });
+    this.ngsw.checkForUpdate();
+
+
+    //Checking network status
     this.updateNetworkStatusUI();
     window.addEventListener("online",this.updateNetworkStatusUI);
     window.addEventListener("offline",this.updateNetworkStatusUI);
 
+    //Checkin installation status
     if((navigator as any).standalone==false){
       //This is an ios device and we are in the browser
       this.snackBar.open("You can add this PWA to the Home Screen","",{duration:5000});

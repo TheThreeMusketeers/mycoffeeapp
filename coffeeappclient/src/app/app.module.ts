@@ -43,6 +43,7 @@ import { CoffeeFormComponent } from './components/coffee-form/coffee-form.compon
 import { Routes,RouterModule } from '@angular/router';
 import { FormsModule,ReactiveFormsModule } from "@angular/forms";
 import { HttpModule } from "@angular/http";
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 const routes:Routes =[
   {path:'',component:CoffeeListComponent},
@@ -65,6 +66,7 @@ const routes:Routes =[
     BrowserModule,
     FormsModule,
     HttpModule,
+    ServiceWorkerModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
     MdAutocompleteModule,
