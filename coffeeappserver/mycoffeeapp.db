@@ -9,3 +9,68 @@
 {"name":"Şüko Cofee","place":"İstanbul","location":{"address":"Çekmeköy","city":"Çekmeköy","latitude":41.025486799999996,"longitude":29.1884891},"tastingRating":{"aroma":10,"flavor":10,"intensity":10,"sweetness":10,"aftertaste":10},"type":"Frappe","rating":10,"notes":"harika1","_id":"3INCqE1kbZWYvs3C"}
 {"$$deleted":true,"_id":"WPfSE6uf2UqQMe8G"}
 {"$$deleted":true,"_id":"y92EhirVSoqhJrWd"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"tX1rZhcpoo2zCpfZ"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"9sGYm6hnf2ZransG"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"kRW5R0jNcx5lFu3z"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"SuIDYOtnbel7xp7j"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"XlG03Z22XWztrSnW"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"lDS0u4OdGpJE1iRv"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"WcOX6WPrTAuBVbCt"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"oNyShX4uvZQrKjb9"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"EUaO65FugNqJ1P8x"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"FKM0HAgnt0rNq03u"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"CqJZRrZfmYStvIDU"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"8VxYvsvYpeIxWcNz"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"4rJ8aZw1nNmlcSHJ"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"7KAXd0XzLtJzeXid"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"pzN8Abep4DRV3QPB"}
+{"name":"Frfds","place":"fds","location":{"address":"fds","city":"fds","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{},"type":"Ristretto","_id":"Q2hUk98WfJaC0dq6"}
+{"name":"fds","place":"fds","location":{"address":"fds","city":"fds","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{},"type":"Americano","_id":"uORdiV1SXrfgnj05"}
+{"name":"fds","place":"fds","location":{"address":"fds","city":"fds","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{},"type":"Americano","_id":"QbiX0zOKIiBzKajp"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"8MGe0BxbB7gWhIGd"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"tYb846n2Nz9LEZRd"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"bqXUaKTIciN1EhhQ"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"L5hiOXK3KN83aXLX"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"KnxEfxkw8fDvDqAx"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"DiKPKDMlCOLLvzQo"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"Xl6S7gMCn7euJfXj"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"hUInV7MPnxvs1zEv"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"NHu4TNNlh4DzjQac"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"sSSjmpku8uSjAQEh"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"RCFHh7QSij6KobaI"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"hw6GwIqCtTvsZljA"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"Oc3Jo0XRaCbaEqAB"}
+{"name":"fds","place":"ds","location":{"address":"fds","city":"","latitude":41.025410699999995,"longitude":29.188530800000002},"tastingRating":{},"type":"Americano","_id":"Q0ZElSSqdIz3UCEx"}
+{"$$deleted":true,"_id":"L5hiOXK3KN83aXLX"}
+{"$$deleted":true,"_id":"NHu4TNNlh4DzjQac"}
+{"$$deleted":true,"_id":"uORdiV1SXrfgnj05"}
+{"$$deleted":true,"_id":"tYb846n2Nz9LEZRd"}
+{"$$deleted":true,"_id":"3INCqE1kbZWYvs3C"}
+{"$$deleted":true,"_id":"sSSjmpku8uSjAQEh"}
+{"$$deleted":true,"_id":"4rJ8aZw1nNmlcSHJ"}
+{"$$deleted":true,"_id":"tX1rZhcpoo2zCpfZ"}
+{"$$deleted":true,"_id":"oNyShX4uvZQrKjb9"}
+{"$$deleted":true,"_id":"lDS0u4OdGpJE1iRv"}
+{"$$deleted":true,"_id":"kRW5R0jNcx5lFu3z"}
+{"$$deleted":true,"_id":"hw6GwIqCtTvsZljA"}
+{"$$deleted":true,"_id":"hUInV7MPnxvs1zEv"}
+{"$$deleted":true,"_id":"bqXUaKTIciN1EhhQ"}
+{"$$deleted":true,"_id":"Xl6S7gMCn7euJfXj"}
+{"$$deleted":true,"_id":"WcOX6WPrTAuBVbCt"}
+{"$$deleted":true,"_id":"SuIDYOtnbel7xp7j"}
+{"$$deleted":true,"_id":"RCFHh7QSij6KobaI"}
+{"$$deleted":true,"_id":"QbiX0zOKIiBzKajp"}
+{"$$deleted":true,"_id":"Q2hUk98WfJaC0dq6"}
+{"$$deleted":true,"_id":"Q0ZElSSqdIz3UCEx"}
+{"$$deleted":true,"_id":"Oc3Jo0XRaCbaEqAB"}
+{"$$deleted":true,"_id":"KnxEfxkw8fDvDqAx"}
+{"$$deleted":true,"_id":"FKM0HAgnt0rNq03u"}
+{"$$deleted":true,"_id":"EUaO65FugNqJ1P8x"}
+{"$$deleted":true,"_id":"DiKPKDMlCOLLvzQo"}
+{"$$deleted":true,"_id":"CqJZRrZfmYStvIDU"}
+{"$$deleted":true,"_id":"9sGYm6hnf2ZransG"}
+{"$$deleted":true,"_id":"8VxYvsvYpeIxWcNz"}
+{"$$deleted":true,"_id":"8MGe0BxbB7gWhIGd"}
+{"$$deleted":true,"_id":"XlG03Z22XWztrSnW"}
+{"$$deleted":true,"_id":"7KAXd0XzLtJzeXid"}
+{"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"pzN8Abep4DRV3QPB"}

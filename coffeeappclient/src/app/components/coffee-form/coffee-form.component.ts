@@ -1,3 +1,4 @@
+import { MdSnackBar } from '@angular/material';
 import { CoffeeService } from './../../services/coffee.service';
 import { TastingRating } from './../../models/tastingRating';
 import { GeolocationService } from './../../services/geolocation.service';
@@ -19,7 +20,8 @@ export class CoffeeFormComponent implements OnInit {
   constructor(private route:ActivatedRoute,
               private geolocationService:GeolocationService,
               private router:Router,
-              private coffeeService:CoffeeService) { }
+              private coffeeService:CoffeeService,
+              private snackBar:MdSnackBar) { }
 
   ngOnInit() {
     this.coffee = new Coffee();
@@ -60,6 +62,7 @@ export class CoffeeFormComponent implements OnInit {
     this.coffeeService.save(this.coffee,result =>{
       if(result){
         this.router.navigate(['/']);
+        this.snackBar.open("The record has been successfully saved.","",{duration:3000});
       }
     });
   }//save
