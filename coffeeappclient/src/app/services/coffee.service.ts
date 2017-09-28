@@ -1,14 +1,17 @@
+import { environment } from './../../environments/environment';
 import { PlaceLocation } from './../models/placeLocation';
 import { Coffee } from './../models/coffee';
 import { Injectable } from '@angular/core';
 import { Http } from "@angular/http";
+
 
 @Injectable()
 export class CoffeeService {
 
   constructor(private http:Http) { }
 
-  public endpoint = "http://localhost:3000";
+  //public endpoint = "http://localhost:3000";
+  public endpoint = environment.apiendpoint;
 
   getCoffee(id:string,callback){
     this.http.get(`${this.endpoint}/coffees/${id}`)

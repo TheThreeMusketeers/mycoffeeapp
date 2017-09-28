@@ -75,3 +75,5 @@
 {"$$deleted":true,"_id":"7KAXd0XzLtJzeXid"}
 {"name":"Yeni bir kahve","place":"trabzon","location":{"address":"address","city":"city","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"pzN8Abep4DRV3QPB"}
 {"name":"Frappe Fake Cocoa","place":"Fake Place","location":{"address":"Fake Address","city":"Fake City","latitude":41.023700399999996,"longitude":29.1913804},"tastingRating":null,"type":"Americano","rating":4,"_id":"jE3PXacywHh9mKnV"}
+{"name":"Frappe Fake Cocoa","place":"Fake Place","location":{"address":"Fake Address","city":"Fake City","latitude":41.1082748,"longitude":29.0339286},"tastingRating":null,"type":"Americano","rating":4,"_id":"jE3PXacywHh9mKnV"}
+{"name":"Kapuçino","place":"trabzon","location":{"address":"address","city":"city","latitude":41.108313700000004,"longitude":29.033982299999995},"tastingRating":{"aroma":2,"flavor":3,"intensity":4,"sweetness":5,"aftertaste":6},"type":"Americano","rating":2,"notes":"notlar buraya","_id":"pzN8Abep4DRV3QPB"}
